@@ -1,0 +1,18 @@
+                    Javascript Notes
+    1. Running code on html.
+       # <script>
+            alert("Hello!!!");
+         </script>
+        -- alerts hello!!! --
+
+    2. Function.
+
+        function hello(){
+            alert("Helo");
+        }
+        
+    3. Queryselector.
+        document.Queryselector("h2").innerHTML = "jdff";
+        --- Changes h2 tags text to jdff ---
+
+    4. If else
