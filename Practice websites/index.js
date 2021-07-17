@@ -1,9 +1,6 @@
-let counter =  document.querySelector("header");
-let change = document.querySelector(".head");
-        function hello(){
-           counter.innerHTML= change;
-        }
-        document.addEventListener("DOMContentLoaded", function(){
-            document.querySelector(".submit").onclick = hello;
-        });
-        
+ let changes = document.querySelector(".head").value;
+ document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector("form").onsubmit= function(){
+        document.querySelector("header").innerHTML= changes;
+    }
+ });
