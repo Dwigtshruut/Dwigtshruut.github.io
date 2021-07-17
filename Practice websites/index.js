@@ -1,10 +1,7 @@
-let counter = 0;
+let counter =  document.querySelector("header");
+let change = document.querySelector(".head");
         function hello(){
-                counter++;
-                document.querySelector("h1").innerHTML= counter;
-                if(counter%10 == 0){
-                alert(`count is ${counter}`);
-           }
+           counter.innerHTML= change;
         }
         document.addEventListener("DOMContentLoaded", function(){
             document.querySelector("button").onclick = hello;
