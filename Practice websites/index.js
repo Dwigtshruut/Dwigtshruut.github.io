@@ -4,6 +4,6 @@ let change = document.querySelector(".head");
            counter.innerHTML= change;
         }
         document.addEventListener("DOMContentLoaded", function(){
-            document.querySelector("button").onclick = hello;
+            document.querySelector(".submit").onclick = hello;
         });
         
