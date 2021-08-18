@@ -38,6 +38,8 @@ header>p{
 header>nav{
     height: 100%;
     width:50%;
+    position: relative;
+    left:6%;
 }
 .nav-ul{
     height: 100%;
@@ -48,13 +50,17 @@ header>nav{
     align-items: center;
 }
 .nav-ul>li{
+    color: white;
     display: flex;
     height: 80%;
     width: 20%;
-    border-radius: solid black 5px;
-    background-color: khaki;
+    background-color:darkcyan;
     font-size: 30px;
     align-items: center;
     justify-content: center;
     border-radius: 10px ;
+}
+.nav-ul>li:hover{
+    color: white;
+    background-color:rgb(26, 240, 240) ;
 }
