@@ -1,0 +1,3 @@
+                                    Grid Notes
+        1 . display: grid;
+        (enables Grid )
