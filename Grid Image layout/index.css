@@ -1,16 +1,12 @@
 *{
     margin:0;
     padding:0;
+    text-decoration: none;
+    list-style: none;
 }
-body{
-    background: url("46497.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-    color:white;
-}
+
 .container{
-    height: auto;
+    min-height: 100vh;
 }
 header{
     display:grid;
@@ -18,14 +14,27 @@ header{
     align-items:center;
     font-size: 3vw;
 }
+main :first-child{
+    font-size:2.5vw;
+}
 /*@media screen and (min-width: 601px){
     header{
         font-size:3rem;
     }
 }*/
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     header{
-        font-size:1.5rem;
-        
+        font-size:2rem;
     }
+    main :first-child{
+        font-size:1.5rem;
+    }
+}
+.nav>ul>li>a{
+    color:rgb(26, 63, 133);
+}
+.nav>ul{
+    height:50vh;
+    display:grid;
+    justify-content:space-between;
 }
