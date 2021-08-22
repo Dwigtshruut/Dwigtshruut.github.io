@@ -7,6 +7,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    color:white;
 }
 .container{
     height: auto;
@@ -16,4 +17,9 @@ header{
     justify-content:center;
     align-items:center;
     font-size:5vw;
+}
+@media screen and (min-width: 601px){
+    header{
+        font-size:1rem;
+    }
 }
