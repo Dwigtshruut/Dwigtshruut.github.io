@@ -27,7 +27,7 @@ main{
 }
 @media screen and (max-width:800px){
     main{
-        grid-column:3 / -1;
+        grid-column:4 / -1;
         padding-right:1rem;
     }
 }
