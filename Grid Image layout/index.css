@@ -29,9 +29,9 @@ main :first-child{
 }*/
 .nav{
     background-color:burlywood;
-    height:50vh;
+    height:38vh;
     width:auto;
-    align-items: center;
+    align-items: start;
     position:fixed;
     top:10.4vh;
     left:1.5vw;
