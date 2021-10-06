@@ -1,0 +1,18 @@
+*{margin: 0; padding: 0; list-style: none;}
+header{
+    background-color: rgb(8, 29, 29);
+    margin:.9rem;
+    display: flex;
+    flex-direction: row;
+}
+header>h1{
+    flex: 3;
+    text-align: center;
+}
+header>form{
+    flex:1;
+    height: 100%;
+}
+#search{
+    height: 100%;
+}

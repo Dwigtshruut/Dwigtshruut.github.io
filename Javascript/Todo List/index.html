@@ -10,11 +10,18 @@
 </head>
 <body>
     <header>
-        <h1>New Improved Todo List</h1><hr>
+        <h1>New Todo List</h1><hr>
     </header>
     <form >
         <input type="text" id="input" placeholder="Add Your Work">
         <button id="button" type="submit"><i class="fas fa-plus"></i></button>
+        <div class="select">
+            <select name="WWW" class="filter-todo">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
     </form>
     <ul id='task'>
 
