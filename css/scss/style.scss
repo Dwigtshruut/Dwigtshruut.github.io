@@ -1,0 +1,11 @@
+$color : blue;
+@import"./header";
+/* Nesting*/
+div{
+    p{
+        color:$color;
+    }
+    h3{
+        background-color: $color;
+    }
+}
