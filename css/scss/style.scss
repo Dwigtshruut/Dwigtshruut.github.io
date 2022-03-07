@@ -1,5 +1,7 @@
 $color : blue;
+/* Importing External Scss*/
 @import"./header";
+@import"./extends";
 /* Nesting*/
 div{
     p{
@@ -9,3 +11,25 @@ div{
         background-color: $color;
     }
 }
+/* Nesting Ends*/
+/* Mixin Starts*/
+@mixin flexing() {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    @include flexing();
+    li{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+/*MIxing Ends*/
+/* Extend start*/
+button{
+    @extend h5;
+}
+/* Extend Ends*/
